@@ -8,8 +8,9 @@ use App\Interfaces\AlgorithmInterface;
 interface AlgorithmsPoolInterface 
 {
     /**
-     * @param QuestionInterface $qustion  Добавляет алгоритм в пулл
-     * @return $this The question object
+     * Добавляет алгоритм в пулл
+     * @param QuestionInterface $algorithm  Добавляет алгоритм в пулл
+     * @return $this The $algorithm object
      */
     public function addAlgorithm(AlgorithmInterface $algorithm);
 }

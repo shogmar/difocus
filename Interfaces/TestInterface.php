@@ -6,14 +6,14 @@ namespace App\Interfaces;
 interface TestInterface 
 {
     /**
-     * Пользователь отправил тест на проверку
+     * Возвращает статус объекта
      *
      * @return bool
      */
     public function getSubmitClient();
 
     /**
-     * становить закончен тест или нет
+     *  Закончен тест или нет
      *  @param bool $submit 
      *
      * @return this

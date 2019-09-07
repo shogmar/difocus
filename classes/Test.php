@@ -9,7 +9,7 @@ abstract class Test implements TestInterface
     /**
      * Нажал ли кнопку отправить пользователь
      *
-     * @var boolean
+     * @var boolean $submit_client
      */
     private $submit_client = FALSE;
     private $pool_questions;

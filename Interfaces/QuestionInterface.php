@@ -6,7 +6,7 @@ namespace App\Interfaces;
 interface QuestionInterface 
 {
     /**
-     * Добавляет вопрос с ответами и баллами
+     * Добавляет вопрос
      * @param string $question Вопрос
      * @return $this The question object
      */

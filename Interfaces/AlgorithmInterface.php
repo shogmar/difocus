@@ -6,13 +6,14 @@ namespace App\Interfaces;
 interface AlgorithmInterface 
 {
     /**
-     * @param string $name_algorithm Устанавливает имя алгоритма
+     * Устанавливает имя алгоритма
+     * @param string $name_algorithm 
      * @return $this The question object
      */
     public function setNameAlgorithm(string $name_algorithm);
 
     /**
-     * @param string $name_algorithm Устанавливает имя алгоритма
+     * Возвращает имя алгоритма
      * @return string or NUUL
      */
     public function getNameAlgorithm();
